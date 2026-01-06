@@ -1,68 +1,74 @@
-# Project Background
-HealthMax is an FMCG company operating in the hair care category with multiple core brands and multi-region market coverage. The company possesses historical sales data covering brand performance, product categories, and promotional activities over several years.
+# Sales & Profitability Analysis using Excel
 
-However, this data has not been fully leveraged to understand market dynamics, product profitability, and business growth opportunities. This project focuses on analyzing historical sales data using Microsoft Excel to identify market trends, evaluate internal performance, and support business decision-making through a Net Revenue Management (NRM) approach, particularly in category development and future sales planning.
+## Project Overview
+This project analyzes FMCG sales data to understand overall sales performance, brand and product contribution, and their relationship with business profitability. The dataset covers multiple years of sales activity and is structured around key metrics such as units sold, sales value, net sales, and gross margin.
 
-Insights and recommendations are provided across key areas:
+The analysis explores how sales performance varies across time, brands, products, and regions, and how metrics such as YTD (Year To Date) and MAT (Moving Annual Total) can be used to read trends and provide a general view of business performance. All analysis is conducted using Microsoft Excel.
 
--including market and category performance
 
--brand and product performance 
-
--profitability 
-
--promotion effectiveness.
-
-An independent analysis was performed to evaluate historical FMCG sales performance 
-  and identify growth opportunities using a Net Revenue Management framework.
-
----
 ## Project Objectives
-The objectives of this project are to:
-- Analyze sales performance and brand growth within a single supplier
-- Identify product categories with the highest growth potential
-- Evaluate product profitability and the impact of promotional activities
-- Develop net sales projections up to 2024 based on historical performance
+- Understand overall sales performance and product contribution  
+- Observe sales patterns across time, brands, and regions  
+- Evaluate the relationship between sales volume and profitability  
+- Use historical data to support trend analysis and performance overview  
 
----
+
 ## Dataset Overview
-The dataset used in this project represents FMCG sales data with the following characteristics:
-- Data period: 2018–2023
-- Data granularity: supplier, brand, category, region, and time
-- Key metrics: units sold, sales value, net sales, and margin
-- Moving Annual Total (MAT) metrics are applied to analyze rolling 12-month market trends
+- Multi-year FMCG sales data  
+- Key metrics include:
+  - Units sold  
+  - Sales value  
+  - Net sales  
+  - Gross margin  
+- Data dimensions cover brand, product, category, region, and time  
+- YTD and MAT metrics are used to analyze performance and sales trends  
+- Data is cleaned and summarized in Excel prior to analysis  
 
-This dataset represents a large-scale business dataset, covering multiple years, brands, and categories, enabling comprehensive performance and trend analysis.
 
----
-## Executive Summary
- ### Overview of Findings
-Based on the analysis of FMCG sales data from 2018 to 2023, HealthMax demonstrates a gradual recovery and growth trend following periods of earlier pressure. The analysis indicates that business growth is driven not only by increases in sales volume, but also by product mix, category composition, and promotional strategies.
 
-Several categories exhibit strong and sustainable growth, while profitability analysis reveals that high-volume products do not always generate the highest margin contribution. These findings highlight the importance of applying a Net Revenue Management (NRM) approach to support effective business decision-making and future growth planning.
-### Market & Category Performance
-- Sales trend analysis shows a gradual recovery in HealthMax’s overall performance, driven primarily by two core brands, Shinez and Starbust.
-- A Moving Annual Total (MAT) approach is applied to reduce seasonality effects and provide a more stable view of long-term market trends.
-- The Organic category demonstrates the strongest growth, with unit sales increasing by more than 200% compared to the initial period, indicating a shift in consumer preference toward natural products.
+## Key Outputs & Insights
+
+### Overall Sales Performance
+![HealthMax Growth](assets/healthmax-growth.png)
+
+Sales performance shows noticeable variation across time periods, indicating changes in demand and sales dynamics rather than a uniform growth pattern.
+
+
+
 ### Brand & Product Performance
-- Market share analysis indicates that Starbust holds a dominant position in the South region in 2023, making it a key strategic focus area.
-- Profitability evaluation shows that several high-volume products generate relatively lower margins, highlighting opportunities for pack-size optimization and pricing strategy improvements.
-- A product simulation for Starbust UltraSoft 50 ml suggests higher volume potential and improved net sales contribution compared to the 100 ml size, particularly to support consumer trial.
-### Promotion Effectiveness
-- Promotional activities for the Shinez brand are shown to contribute to sales uplift during specific periods.
-- However, the analysis also indicates that promotions should be applied selectively to avoid margin erosion and remain aligned with long-term profitability objectives.
-### Recommendations
-Based on the analysis, key recommendations include:
-- Prioritizing the development of the Organic category as a medium-term growth driver.
-- Optimizing smaller pack-size strategies (50 ml) to increase trial and sales volume.
-- Applying promotional activities more selectively, focusing on products with stronger margin contributions.
-- Integrating Net Revenue Management (NRM) principles into sales planning, pricing, and product development strategies.
+![Product Performance](assets/healthmax-product-performance.png)
 
----
+A relatively small number of products and brands contribute a significant portion of total net sales, while other products provide smaller but more stable contributions.
+
+
+
+### Profitability Analysis
+![Profitability Matrix](assets/profitability-analysis.png)
+
+The profitability matrix highlights that products with high sales contribution do not always deliver the highest margins, emphasizing the importance of evaluating sales and margin together.
+
+
+
+### Sales Forecast Overview
+![Sales Forecast](assets/sales-forecast.png)
+
+Historical sales data is used as a baseline to provide a forward-looking view of potential sales performance without incorporating additional strategic initiatives.
+
+
+
+## Key Learnings
+- Understanding how sales data can be interpreted in a business context  
+- Using Excel to summarize and explore data effectively  
+- Connecting sales metrics with profitability indicators  
+- Extracting meaningful insights without unnecessary analytical complexity  
+
+
 
 ## Tools
 - Microsoft Excel
-- Pivot Table
-- Lookup & logical functions
-- Basic Forecasting
-- Data Visualization
+
+
+
+## Disclaimer
+This project was created for academic and educational purposes only.
+All data and analysis are used solely for learning and demonstration purposes and do not represent actual business decisions or recommendations.
